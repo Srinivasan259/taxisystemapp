@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
-import CabService from "../Service/CabService";
+//import CabService from "../Service/CabService";
 import CustomerService from "../Service/CustomerService";
 import BookingService from "../Service/BookingService";
 
