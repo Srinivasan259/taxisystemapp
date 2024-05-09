@@ -92,20 +92,20 @@ function AddBooking() {
     loadDetails();
   }, []);
 
-  const setPay = [];
+  // const setPay = [];
 
-  useEffect(() => {
-    const loadPaymentDetails = async (e) => {
-      await CabService.getAllCabIds()
-        .then((res) => {
-          // console.log(res.data);
-          setPay.push(res.data);
-        })
-        .catch((err) => console.log(err));
-    };
+  // useEffect(() => {
+  //   const loadPaymentDetails = async (e) => {
+  //     await CabService.getAllCabIds()
+  //       .then((res) => {
+  //         // console.log(res.data);
+  //         setPay.push(res.data);
+  //       })
+  //       .catch((err) => console.log(err));
+  //   };
 
-    loadPaymentDetails();
-  }, []);
+  //   loadPaymentDetails();
+  // }, []);
 
   return (
     <div className="container">
